@@ -1,4 +1,4 @@
-import { Phone, MapPin, Clock, ShieldCheck, MailCheck, Construction } from "lucide-react";
+import { Phone, MapPin, Clock, ShieldCheck, MailCheck, Trash2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
@@ -8,10 +8,10 @@ const Contact = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="animate-fade-in">
             <h2 className="text-3xl md:text-5xl font-heading font-bold text-white mb-6 leading-tight">
-              Restore Your Phoenix Sewer Without the Trench
+              Certified Grease Trap Pumping in Charleston
             </h2>
             <p className="text-xl text-slate-300 mb-10 leading-relaxed font-medium">
-              Don't let traditional digging destroy your Arizona home. Our trenchless specialists are ready to provide a permanent, non-invasive fix for your sewer emergencies.
+              Stay compliant and keep your kitchen running. Our Charleston specialists are available 24/7 for scheduled maintenance and emergency grease backups.
             </p>
 
             <div className="space-y-6">
@@ -20,7 +20,7 @@ const Contact = () => {
                   <Phone className="w-7 h-7 text-white" />
                 </div>
                 <div>
-                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Emergency Sewer Line</div>
+                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Emergency Grease Line</div>
                   <a href="tel:8777921410" className="text-2xl md:text-3xl font-heading font-bold text-white hover:text-blue-400 transition-colors">
                     (877) 792-1410
                   </a>
@@ -32,21 +32,21 @@ const Contact = () => {
                   <MapPin className="w-7 h-7 text-blue-400" />
                 </div>
                 <div>
-                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Service Region</div>
+                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Lowcountry Service Office</div>
                   <div className="text-xl font-heading font-bold text-white">
-                    Phoenix, Scottsdale, Tempe & Mesa
+                    Serving Charleston, Mt. Pleasant & N. Charleston
                   </div>
                 </div>
               </div>
 
               <div className="flex items-center gap-6">
                 <div className="w-14 h-14 bg-slate-800 rounded-2xl flex items-center justify-center shrink-0 border border-slate-700">
-                  <Construction className="w-7 h-7 text-blue-400" />
+                  <Trash2 className="w-7 h-7 text-blue-400" />
                 </div>
                 <div>
-                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Response Status</div>
+                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Compliance Status</div>
                   <div className="text-xl font-heading font-bold text-white">
-                    Available for 1-Day Repair
+                    Registered SC FOG Transporter
                   </div>
                 </div>
               </div>
@@ -56,18 +56,18 @@ const Contact = () => {
           <div className="bg-white rounded-3xl p-8 md:p-12 shadow-2xl relative overflow-hidden animate-fade-in-delay-1">
             <div className="relative z-10">
               <h3 className="text-2xl font-heading font-bold text-slate-900 mb-4">
-                Schedule No-Dig Quote
+                Request a Service Quote
               </h3>
               <p className="text-slate-600 mb-8 font-medium">
-                Call now for a professional sewer video diagnostic. We provide upfront, transparent pricing for all Phoenix trenchless projects.
+                Call now to schedule your next grease trap pump or to set up an automated maintenance schedule. We offer flat-rate pricing for Charleston restaurants.
               </p>
 
               <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100 mb-8">
                 <div className="flex gap-4 items-start">
                   <ShieldCheck className="w-6 h-6 text-blue-600 shrink-0" />
                   <div>
-                    <div className="font-bold text-slate-900 mb-1 leading-none uppercase text-xs tracking-widest">Licensed in AZ</div>
-                    <p className="text-sm text-slate-600">State of Arizona Registrar of Contractors (ROC) Licensed. Quality you can trust.</p>
+                    <div className="font-bold text-slate-900 mb-1 leading-none uppercase text-xs tracking-widest">Compliance Guaranteed</div>
+                    <p className="text-sm text-slate-600">We handle all the paperwork and reporting to ensure you stay in good standing with Charleston Water System.</p>
                   </div>
                 </div>
               </div>

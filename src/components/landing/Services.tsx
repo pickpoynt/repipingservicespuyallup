@@ -1,53 +1,53 @@
-import { Search, Droplets, Shield, Hammer, AlertTriangle, Waves, Activity, Zap, Ruler } from "lucide-react";
+import { Trash2, Droplets, Shield, MapPin, ClipboardCheck, Zap, Ruler, Activity } from "lucide-react";
 
 const services = [
   {
-    icon: Ruler,
-    title: "CIPP Pipe Lining",
-    description: "Cured-In-Place Pipe (CIPP) technology creates a brand new, structural pipe inside your existing one using epoxy resin, effectively fixing cracks and root intrusion.",
-    link: "#trenchless-info"
+    icon: Trash2,
+    title: "Grease Trap Pumping",
+    description: "Complete removal of all FOG (Fats, Oils, and Grease) from your kitchen interceptors, ensuring smooth drainage and zero odors.",
+    link: "#grease-trap-info"
   },
   {
-    icon: Hammer,
-    title: "Pipe Bursting",
-    description: "A specialized tool pulls a new High-Density Polyethylene (HDPE) pipe through your old line, breaking the old pipe and replacing it in one continuous motion.",
-    link: "#trenchless-info"
+    icon: ClipboardCheck,
+    title: "Compliance Documentation",
+    description: "We provide all necessary manifest tags and reporting to keep you in good standing with Charleston Water System and local FOG programs.",
+    link: "#grease-trap-info"
   },
   {
-    icon: Search,
-    title: "HD Video Inspection",
-    description: "We use robotic sewer cameras to find exactly where your sewer line is failing, providing you with a high-definition recording and clear diagnostic report.",
-    link: "#trenchless-info"
-  },
-  {
-    icon: Zap,
-    title: "Emergency Sewer Ops",
-    description: "Available for rapid sewer backups in Phoenix. We can often clear the line and perform a trenchless repair faster than traditional excavation teams.",
-    link: "#trenchless-info"
-  },
-  {
-    icon: Droplets,
-    title: "Hydro Jetting Scouring",
-    description: "Using high-pressure water to blast through tree roots, grease, and scale, preparing your old host pipe for a smooth trenchless liner application.",
-    link: "#trenchless-info"
+    icon: Activity,
+    title: "Scheduled Maintenance",
+    description: "Routine cleaning schedules tailored to your kitchen's volume, preventing costly emergency backups and fines.",
+    link: "#grease-trap-info"
   },
   {
     icon: Shield,
-    title: "Commercial Trenchless",
-    description: "Zero-downtime sewer repairs for Phoenix businesses. We fix lines under parking lots and sidewalks without closing your doors to customers.",
-    link: "#trenchless-info"
+    title: "Interceptor Inspection",
+    description: "Verifying the structural integrity of your grease traps to ensure they are capturing grease effectively before it enters the sewer line.",
+    link: "#grease-trap-info"
   },
   {
-    icon: Waves,
-    title: "Permaliner Solutions",
-    description: "Certified installers of industry-leading Permaliner systems, offering the highest strength-to-thickness ratio for modern trenchless pipe lining.",
-    link: "#trenchless-info"
+    icon: Zap,
+    title: "Emergency Backups",
+    description: "Drain slow or backing up? Our Charleston team is on call for rapid grease-related line clearing and trap cleaning.",
+    link: "#grease-trap-info"
   },
   {
-    icon: AlertTriangle,
-    title: "Root Barrier Install",
-    description: "Preventing future root damage in Phoenix's landscape by installing physical and chemical barriers after your sewer line has been restored.",
-    link: "#trenchless-info"
+    icon: Droplets,
+    title: "FOG Disposal",
+    description: "Eco-friendly disposal of grease waste at certified South Carolina facilities, adhering to all state environmental standards.",
+    link: "#grease-trap-info"
+  },
+  {
+    icon: Ruler,
+    title: "Interceptor Sizing",
+    description: "Professional advice on grease interceptor sizing and installation requirements for new or expanding Charleston food businesses.",
+    link: "#grease-trap-info"
+  },
+  {
+    icon: MapPin,
+    title: "Multi-Location Support",
+    description: "Consolidated grease management services for restaurant groups and franchise owners across the Charleston metro area.",
+    link: "#grease-trap-info"
   }
 ];
 
@@ -57,10 +57,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Advanced Trenchless Services in Phoenix
+            Total Grease Management for Charleston Kitchens
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            We provide the most innovative, non-invasive sewer solutions to protect your property and restore your drainage systems permanently.
+            From the Battery to North Charleston, we help restaurants stay clean, compliant, and open for business.
           </p>
         </div>
 

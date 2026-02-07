@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import TrenchlessInfo from "@/components/landing/TrenchlessInfo";
+import GreaseTrapInfo from "@/components/landing/GreaseTrapInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Trenchless sewer repair Phoenix | Phoenix Trenchless Pros: No-Dig Sewer Solutions</title>
-        <meta name="description" content="Expert Trenchless sewer repair Phoenix. Professional sewer pipe lining, pipe bursting, and no-dig sewer repair. Licensed plumbers serving Phoenix and Maricopa County. Call (877) 792-1410 today!" />
-        <meta name="keywords" content="Trenchless sewer repair Phoenix, sewer pipe lining Phoenix, no dig sewer repair AZ, pipe bursting Phoenix, trenchless sewer replacement" />
-        <link rel="canonical" href="https://trenchless-sewer-repair-phoenix.com/" />
+        <title>Grease trap cleaning Charleston | Charleston Grease Trap Pros: Certified Pumping</title>
+        <meta name="description" content="Certified Grease trap cleaning Charleston. Professional grease interceptor pumping, maintenance, and FOG compliance. Serving Charleston, SC restaurants and commercial kitchens. Call (877) 792-1410 today!" />
+        <meta name="keywords" content="Grease trap cleaning Charleston, grease interceptor pumping Charleston SC, restaurant grease trap maintenance, Charleston FOG compliance, commercial kitchen grease removal" />
+        <link rel="canonical" href="https://grease-trap-cleaning-charleston.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Phoenix Trenchless Pros",
-            "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80",
+            "name": "Charleston Grease Trap Pros",
+            "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80",
             "telephone": "+1-877-792-1410",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Phoenix",
-              "addressRegion": "AZ",
-              "postalCode": "85001",
+              "addressLocality": "Charleston",
+              "addressRegion": "SC",
+              "postalCode": "29401",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "33.4484",
-              "longitude": "-112.0740"
+              "latitude": "32.7765",
+              "longitude": "-79.9311"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Phoenix, Arizona"
+              "name": "Charleston, South Carolina"
             },
-            "priceRange": "$$$",
-            "description": "Professional trenchless sewer repair services in Phoenix, Arizona. We specialize in pipe lining and pipe bursting to fix sewer lines without digging up your yard."
+            "priceRange": "$$",
+            "description": "Professional grease trap cleaning and interceptor maintenance services in Charleston, SC. We specialize in FOG compliance for restaurants and commercial kitchens."
           })}
         </script>
 
@@ -55,46 +55,46 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Trenchless Sewer Repair",
+            "serviceType": "Grease Trap Cleaning",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Phoenix Trenchless Pros",
+              "name": "Charleston Grease Trap Pros",
               "telephone": "+1-877-792-1410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Phoenix, Arizona"
+              "name": "Charleston, South Carolina"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Trenchless Services",
+              "name": "Grease Management Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Cured-In-Place Pipe (CIPP) Lining"
+                    "name": "Commercial Grease Trap Pumping"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Pipe Bursting Sewer Replacement"
+                    "name": "Grease Interceptor Maintenance"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Video Sewer Inspection"
+                    "name": "FOG Program Compliance Documentation"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Hydro Jetting Drain Cleaning"
+                    "name": "Emergency Grease Backup Cleaning"
                   }
                 }
               ]
@@ -103,11 +103,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Trenchless sewer repair Phoenix | Phoenix Trenchless Pros" />
-        <meta property="og:description" content="Expert trenchless sewer repair in Phoenix, AZ. Permanent sewer solutions without the trench. Call (877) 792-1410." />
+        <meta property="og:title" content="Grease trap cleaning Charleston | Charleston Grease Trap Pros" />
+        <meta property="og:description" content="Expert grease trap cleaning in Charleston, SC. Certified pumping and FOG compliance for restaurants. Call (877) 792-1410." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://trenchless-sewer-repair-phoenix.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1541233349642-6e425fe6190e?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://grease-trap-cleaning-charleston.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1518066000714-58c45f1a2c0a?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -115,16 +115,16 @@ const Index = () => {
         <Hero
           title={
             <>
-              Trenchless sewer repair Phoenix
-              <span className="block text-blue-400 mt-2">Phoenix Sewer Experts: Pipe Lining Specialists</span>
+              Grease trap cleaning Charleston
+              <span className="block text-blue-400 mt-2">Charleston Kitchen Experts: Certified FOG Solutions</span>
             </>
           }
-          subtitle="Don't destroy your Arizona landscape. Our advanced trenchless technology restores your sewer lines from the inside out. Permanent, structural pipe lining and pipe bursting solutions for Phoenix homeowners. Save time, money, and your yard."
-          image="https://images.unsplash.com/photo-1542013919164-94427b3fa437?auto=format&fit=crop&q=80"
+          subtitle="Keep your Charleston kitchen running smoothly and stay compliant with CWS and local FOG regulations. We provide professional grease trap pumping, comprehensive cleaning, and certified disposal for restaurants and commercial food facilities across the Lowcountry."
+          image="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80"
         />
         <Services />
         <WhyUs />
-        <TrenchlessInfo />
+        <GreaseTrapInfo />
         <FAQ />
         <Contact />
         <RandomLinks />

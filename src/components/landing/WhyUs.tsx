@@ -1,43 +1,43 @@
-import { Shield, Microscope, MapPin, Building2, ClipboardCheck, Zap, Award, CheckCircle2 } from "lucide-react";
+import { Shield, ClipboardCheck, Clock, MapPin, Building2, Award, CheckCircle2 } from "lucide-react";
 
 const reasons = [
   {
     icon: Award,
-    title: "Arizona Soil Experts",
-    description: "Phoenix's hard-packed caliche soil makes traditional digging incredibly expensive. Our trenchless methods bypass the desert's toughest earth."
+    title: "CWS FOG Specialists",
+    description: "We are deeply familiar with the Charleston Water System (CWS) FOG program and ensure all reporting is handled correctly to avoid fines."
   },
   {
     icon: CheckCircle2,
-    title: "Eco-Friendly Tech",
-    description: "Trenchless repair uses 80% less heavy machinery, protecting your landscape and reducing the carbon footprint of your home repair."
+    title: "Clean Kitchen Focus",
+    description: "Grease trap maintenance is vital for a sanitary environment. Our team uses specialized equipment to minimize odors and mess."
   },
   {
     icon: Building2,
-    title: "Zero Landscape Damage",
-    description: "Keep your pavers, mature palm trees, and pools exactly where they are. We only need two small access points to replace an entire line."
+    title: "Restaurant Ready",
+    description: "We work around your schedule—performing pumping during off-peak hours to avoid any disruption to your customers' dining experience."
   },
   {
     icon: ClipboardCheck,
-    title: "Licensed & Certified",
-    description: "We are factory-certified installers of industry-leading trenchless systems, backed by full Arizona plumbing licenses and bonding."
+    title: "Certified Tracking",
+    description: "Every pump is documented. We provide you with precise waste tracking logs required for health department inspections."
   },
   {
-    icon: Zap,
-    title: "Rapid Completion",
-    description: "Traditional sewer replacement can take a week. Most of our trenchless lining projects are completed and live in a single business day."
+    icon: Clock,
+    title: "Reliable Scheduling",
+    description: "Never miss a cleaning date again. Our automated scheduling system ensures your traps are serviced exactly when needed."
   },
   {
     icon: MapPin,
-    title: "Phoenix-Wide Service",
-    description: "From North Mountain to Ahwatukee and Scottsdale to Glendale—we are your local, rapid-response trenchless specialists."
+    title: "Lowcountry Local",
+    description: "Born and bread in Charleston. We serve the peninsula, Mount Pleasant, West Ashley, James Island, and beyond."
   }
 ];
 
 const stats = [
-  { number: "25k+", label: "Feet of Pipe Lined" },
-  { number: "1-Day", label: "Completion Time" },
-  { number: "50-Yr", label: "Pipe Life Span" },
-  { number: "Licensed", label: "In Arizona" }
+  { number: "100%", label: "Compliance Rate" },
+  { number: "24/7", label: "Support" },
+  { number: "500+", label: "Local Clients" },
+  { number: "Certified", label: "SC Hauler" }
 ];
 
 const WhyUs = () => {
@@ -46,10 +46,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Phoenix's First Choice for No-Dig Sewer Repair
+            Charleston's Trusted Partner in Grease Management
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Experience the future of plumbing. We combine aerospace-grade epoxy with expert Arizona craftsmanship to deliver sewer solutions that last a lifetime.
+            Running a kitchen is hard enough—let us handle the FOG compliance. We provide the most reliable grease trap services in the Lowcountry.
           </p>
         </div>
 

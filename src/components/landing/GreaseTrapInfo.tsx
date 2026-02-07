@@ -1,57 +1,57 @@
-import { ShieldCheck, FileCheck, Hammer, Microscope, MapPin, Gauge } from "lucide-react";
+import { ShieldCheck, Trash2, ClipboardCheck, AlertTriangle, MapPin, Search } from "lucide-react";
 
-const TrenchlessInfo = () => {
-    const techOptions = [
+const GreaseTrapInfo = () => {
+    const complianceTips = [
         {
-            icon: Microscope,
-            title: "CIPP Sewer Lining",
-            description: "A flexible liner saturated with epoxy resin is inserted into your old sewer pipe. Once cured, it creates a new 'pipe-within-a-pipe' that is stronger than brand new PVC."
+            icon: ClipboardCheck,
+            title: "Charleston FOG Compliance",
+            description: "The Charleston Water System (CWS) enforces a strict FOG Program. Restaurants must have their grease traps pumped and cleaned at least every 90 days, or more often if the trap is 25% full."
         },
         {
-            icon: Hammer,
-            title: "Pipe Bursting",
-            description: "Using a hydraulic 'bursting head,' we pull a new HDPE pipe through your old, collapsed line, shattering the old pipe and expanding the space for the new one."
+            icon: AlertTriangle,
+            title: "Avoid Surcharge Fines",
+            description: "Improper disposal of grease into the sewer system leads to massive sewer surcharges and potential closure by the health department. We ensure all waste is manifest-tracked."
         },
         {
-            icon: Gauge,
-            title: "Hydro-Jetting Prep",
-            description: "Our high-PSI water scouring process removes decades of scale, sludge, and tree roots, ensuring a perfect bond for the new trenchless liner."
+            icon: Search,
+            title: "Proactive Inspections",
+            description: "Wait for an inspector to find a problem, and it's too late. We provide pre-inspection reports to ensure your interceptors are in perfect working order."
         },
         {
-            icon: FileCheck,
-            title: "Digital Inspection",
-            description: "Every Phoenix trenchless project starts and ends with a high-definition video inspection to verify structural integrity and flow capacity."
+            icon: Trash2,
+            title: "Certified SC Waste Hauler",
+            description: "We are fully licensed by the State of South Carolina to collect, transport, and dispose of grease waste safely at designated environmental facilities."
         }
     ];
 
-    const phoenixFactors = [
+    const lowcountryFactors = [
         {
             icon: MapPin,
-            title: "Navigating Caliche Soil",
-            description: "Phoenix's 'caliche' is a rock-hard layer of calcium carbonate. Trenchless technology bypasses the need to jackhammer through this sub-layer, saving you time and labor costs."
+            title: "Peninsula Drainage Challenges",
+            description: "In historic downtown Charleston, older sewer lines are particularly vulnerable to grease clogs. A single backup can cause immense damage to historic properties."
         },
         {
             icon: ShieldCheck,
-            title: "Orangeburg Pipe Warning",
-            description: "Many 1950s-era Phoenix homes have 'Orangeburg' (bituminous fiber) pipes. These are prone to collapse. Our pipe bursting specialists can replace these completely without a trench."
+            title: "Flood Zone Considerations",
+            description: "Grease traps in low-lying Charleston areas require special attention after flooding events to ensure tidal water hasn't compromised the interceptor's seal."
         }
     ];
 
     return (
-        <section id="trenchless-info" className="py-24 bg-gradient-to-br from-slate-50 to-blue-50">
+        <section id="grease-trap-info" className="py-24 bg-gradient-to-br from-slate-50 to-blue-50">
             <div className="container mx-auto px-4">
                 <div className="max-w-4xl mx-auto">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 capitalize leading-tight">
-                            The Future of <span className="text-blue-600">Sewer Repair in Phoenix</span>
+                            Essential FOG Compliance for <span className="text-blue-600">Charleston Kitchens</span>
                         </h2>
                         <p className="text-xl text-slate-600 leading-relaxed shadow-sm p-4 bg-white/50 rounded-xl border border-blue-100">
-                            Stop the digging and save your home. Our trenchless methods provide a permanent, structural fix for your Phoenix sewer lines without the destruction of traditional excavation.
+                            Operating a restaurant in the Lowcountry means staying on top of grease management. Our certified pumping services keep you compliant with local regulations and protect our beautiful coastal environment.
                         </p>
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-8 mb-16">
-                        {techOptions.map((item, idx) => (
+                        {complianceTips.map((item, idx) => (
                             <div key={idx} className="bg-white p-8 rounded-2xl shadow-xl border border-slate-100 hover:border-blue-300 transition-all duration-300 group">
                                 <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-colors shadow-inner">
                                     <item.icon className="w-7 h-7 text-blue-600 group-hover:text-white" />
@@ -64,9 +64,9 @@ const TrenchlessInfo = () => {
 
                     <div className="bg-slate-900 rounded-3xl p-8 md:p-12 text-white relative overflow-hidden shadow-2xl">
                         <div className="relative z-10">
-                            <h3 className="text-2xl md:text-3xl font-heading font-bold mb-8">Localized Phoenix Sewer Challenges</h3>
+                            <h3 className="text-2xl md:text-3xl font-heading font-bold mb-8">Charleston-Specific Grease Management</h3>
                             <div className="grid md:grid-cols-2 gap-12">
-                                {phoenixFactors.map((factor, idx) => (
+                                {lowcountryFactors.map((factor, idx) => (
                                     <div key={idx} className="space-y-4">
                                         <div className="flex items-center gap-3">
                                             <factor.icon className="w-6 h-6 text-blue-400" />
@@ -79,14 +79,14 @@ const TrenchlessInfo = () => {
                                 ))}
                             </div>
                         </div>
-                        {/* Abstract Desert Map Pattern */}
+                        {/* Abstract Water/Wave Design element */}
                         <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/5 rounded-full blur-3xl" />
                     </div>
 
                     <div className="mt-16 bg-blue-600 rounded-3xl p-8 md:p-10 text-center text-white shadow-2xl">
-                        <h3 className="text-2xl md:text-3xl font-heading font-bold mb-4">Facing a Massive Sewer Bill?</h3>
+                        <h3 className="text-2xl md:text-3xl font-heading font-bold mb-4">Are you due for a Grease Trap Pump?</h3>
                         <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
-                            Trenchless repair is often 30-50% cheaper over the entire project life when compared to digging up and replacing expensive Phoenix landscaping.
+                            The 25% rule is strictly enforced in Charleston. Don't risk FOG surcharges or health department shutdowns. Schedule your certified cleaning today.
                         </p>
                         <a
                             href="tel:8777921410"
@@ -101,4 +101,4 @@ const TrenchlessInfo = () => {
     );
 };
 
-export default TrenchlessInfo;
+export default GreaseTrapInfo;

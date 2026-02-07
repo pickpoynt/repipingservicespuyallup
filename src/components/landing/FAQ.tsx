@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Is trenchless sewer repair really as strong as a new PVC pipe?",
-    answer: "Yes, even stronger! The cured-in-place pipe (CIPP) liners we use in Phoenix are structural, semi-rigid, and rated for a 50+ year life span. They are resistant to chemical corrosion and significantly more resistant to root intrusion than traditional clay or PVC joints."
+    question: "How often does a grease trap need to be cleaned in Charleston?",
+    answer: "Charleston Water System (CWS) and other local municipalities typically require a 90-day cleaning cycle. However, if your trap reaches 25% capacity (grease and solids) before the 90-day mark, it must be pumped sooner to remain compliant."
   },
   {
-    question: "How long does a typical trenchless repair take in Phoenix?",
-    answer: "Most residential lining projects are completed in a single day. We arrive in the morning, clean the host pipe, install the liner, and have your sewer service back up and running by the evening. Traditional digging can take 3-7 days."
+    question: "What is the '25% rule' and why does it matter?",
+    answer: "The 25% rule states that the total volume of grease and solids in a trap cannot exceed 25% of the total capacity. Beyond this point, the interceptor loses its efficiency, allowing fats and oils to enter the public sewer system, which can result in heavy surcharges and fines."
   },
   {
-    question: "Can any sewer line be fixed with trenchless technology?",
-    answer: "While most pipes are candidates, if a sewer line has completely pancaked (collapsed) or has severe 'bellies' (low spots), pipe bursting or traditional excavation may be required. We perform a free video inspection to determine the best method for your specific Phoenix property."
+    question: "Do you provide the compliance manifest for CWS?",
+    answer: "Yes. After every cleaning, we provide a waste manifest and a certificate of compliance. We maintain these records digitally so you can easily present them to health inspectors or utility representatives during audits."
   },
   {
-    question: "What is the cost difference between digging and trenchless in Phoenix?",
-    answer: "Trenchless repair itself may have a higher per-foot material cost, but you save thousands by not having to replace your landscape, patio, driveway, or pool deck. This makes trenchless the more affordable overall solution for most Phoenix homeowners."
+    question: "Can I clean my own grease trap in Charleston?",
+    answer: "While small, under-sink grease traps can technically be cleaned manually, commercial establishments are generally required to use a certified waste hauler for proper disposal and tracking. Self-cleaning often leads to compliance issues if the waste isn't disposed of at a licensed SC facility."
   },
   {
-    question: "Do you offer a warranty on the new sewer liner?",
-    answer: "Absolutely. We offer a lifetime material warranty and a 10-year labor warranty on all our trenchless installations. We stand by the quality of our Arizona craftsmanship."
+    question: "What happens if my grease trap overflows?",
+    answer: "An overflow is an emergency that can lead to health code violations, foul odors, and sewage backups into your kitchen. We offer 24/7 emergency response in Charleston to pump out overflowing traps and clear grease-related clogs immediately."
   },
   {
-    question: "How do you 'get into' the pipe without digging a trench?",
-    answer: "We typically use an existing sewer cleanout or create a single small access point at the pipe's entry into the house. From there, we 'blow' or pull the liner through the entire length of the broken pipe."
+    question: "Does regular maintenance prevent odors in my Charleston kitchen?",
+    answer: "Absolutely. Odors are caused by the decomposition of trapped organic matter. Regular pumping prevents the accumulation of old grease, which is the primary source of 'kitchen sink smells' often found in the Lowcountry heat."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Phoenix Trenchless FAQ
+            Charleston Grease Management FAQ
           </h2>
           <p className="text-lg text-slate-600">
-            Expert answers to common questions about no-dig sewer repair in Arizona.
+            Expert answers to common questions about grease trap compliance in the Lowcountry.
           </p>
         </div>
 

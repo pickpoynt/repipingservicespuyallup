@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Activity, ShieldBox, Droplets, Shield } from "lucide-react";
+import { Phone, Mail, MapPin, Activity, Shield, Filter } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,14 +11,14 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center">
-                <Activity className="w-6 h-6 text-white" />
+                <Filter className="w-6 h-6 text-white" />
               </div>
               <span className="font-heading font-bold text-xl text-white">
-                Phoenix Trenchless Pros
+                Charleston Grease Trap Pros
               </span>
             </div>
             <p className="text-slate-400 leading-relaxed">
-              Arizona's leaders in no-dig sewer repair technology. We specialize in structural pipe lining and pipe bursting for residential and commercial Phoenix properties.
+              The Lowcountry's premier commercial grease management experts. Providing certified pumping and FOG compliance solutions for Charleston's vibrant restaurant community.
             </p>
             <div className="flex items-center gap-4">
               <a href="tel:8777921410" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 transition-colors">
@@ -32,39 +32,39 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="font-heading font-bold text-white mb-6 uppercase tracking-wider text-sm">No-Dig Services</h4>
+            <h4 className="font-heading font-bold text-white mb-6 uppercase tracking-wider text-sm">FOG Services</h4>
             <ul className="space-y-4">
-              <li><a href="#services" className="hover:text-blue-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-blue-600" /> Sewer Pipe Lining</a></li>
-              <li><a href="#services" className="hover:text-blue-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-blue-600" /> CIPP Restoration</a></li>
-              <li><a href="#services" className="hover:text-blue-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-blue-600" /> Pipe Bursting</a></li>
-              <li><a href="#services" className="hover:text-blue-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-blue-600" /> Video Diagnostics</a></li>
-              <li><a href="#services" className="hover:text-blue-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-blue-600" /> Hydro-Jetting</a></li>
+              <li><a href="#services" className="hover:text-blue-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-blue-600" /> Grease Pumping</a></li>
+              <li><a href="#services" className="hover:text-blue-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-blue-600" /> Compliance Logging</a></li>
+              <li><a href="#services" className="hover:text-blue-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-blue-600" /> Interceptor Cleaning</a></li>
+              <li><a href="#services" className="hover:text-blue-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-blue-600" /> Odor Control</a></li>
+              <li><a href="#services" className="hover:text-blue-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-blue-600" /> Waste Disposal</a></li>
             </ul>
           </div>
 
           {/* Locations */}
           <div>
-            <h4 className="font-heading font-bold text-white mb-6 uppercase tracking-wider text-sm">Service Areas</h4>
+            <h4 className="font-heading font-bold text-white mb-6 uppercase tracking-wider text-sm">Service Area</h4>
             <ul className="space-y-4">
-              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-blue-600" /> Phoenix & Scottsdale</li>
-              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-blue-600" /> Tempe & Mesa</li>
-              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-blue-600" /> Glendale & Peoria</li>
-              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-blue-600" /> Chandler & Gilbert</li>
-              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-blue-600" /> Surprise & Avondale</li>
+              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-blue-600" /> Historic Peninsula</li>
+              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-blue-600" /> Mount Pleasant</li>
+              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-blue-600" /> North Charleston</li>
+              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-blue-600" /> West Ashley</li>
+              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-blue-600" /> Summerville & Goose Creek</li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div className="space-y-6">
-            <h4 className="font-heading font-bold text-white mb-6 uppercase tracking-wider text-sm">Emergency Hot Line</h4>
+            <h4 className="font-heading font-bold text-white mb-6 uppercase tracking-wider text-sm">Service Hotline</h4>
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl">
-              <div className="text-blue-400 font-bold text-sm uppercase mb-2">Arizona Certified</div>
+              <div className="text-blue-400 font-bold text-sm uppercase mb-2">SC Certified Hauler</div>
               <a href="tel:8777921410" className="text-2xl font-heading font-bold text-white hover:text-blue-400 transition-colors">
                 (877) 792-1410
               </a>
               <div className="flex items-center gap-2 mt-4 text-slate-400 text-sm">
                 <Shield className="w-4 h-4 text-blue-600" />
-                Licensed AZ ROC #123456
+                Licensed & Bonded SC #98765
               </div>
             </div>
           </div>
@@ -73,16 +73,16 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-10 border-t border-slate-800 text-center md:text-left flex flex-col md:row items-center justify-between gap-6">
           <p className="text-slate-500 text-sm">
-            © {currentYear} Phoenix Trenchless Pros. All rights reserved.
+            © {currentYear} Charleston Grease Trap Pros. All rights reserved.
             <span className="mx-2">|</span>
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <span className="mx-2">|</span>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
           </p>
           <div className="flex items-center gap-3">
-            <div className="text-xs text-slate-600 italic">Trenchless sewer repair Phoenix</div>
+            <div className="text-xs text-slate-600 italic">Grease trap cleaning Charleston</div>
             <div className="w-2 h-2 rounded-full bg-blue-600/30" />
-            <div className="text-xs text-slate-600 italic">No-dig sewer line replacement Arizona</div>
+            <div className="text-xs text-slate-600 italic">Certified FOG compliance South Carolina</div>
           </div>
         </div>
       </div>
@@ -92,24 +92,24 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Plumber",
-          "name": "Phoenix Trenchless Pros",
+          "name": "Charleston Grease Trap Pros",
           "telephone": "+1-877-792-1410",
-          "url": "https://trenchless-sewer-repair-phoenix.com/",
-          "logo": "https://trenchless-sewer-repair-phoenix.com/logo.png",
-          "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80",
-          "description": "Professional trenchless sewer repair and pipe lining in Phoenix, AZ. Certified experts in no-dig sewer restoration.",
+          "url": "https://grease-trap-cleaning-charleston.com/",
+          "logo": "https://grease-trap-cleaning-charleston.com/logo.png",
+          "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80",
+          "description": "Professional grease trap cleaning and interceptor pumping in Charleston, SC. We provide certified FOG compliance for restaurants and commercial kitchens.",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Serving the entire Phoenix Metro Area",
-            "addressLocality": "Phoenix",
-            "addressRegion": "AZ",
-            "postalCode": "85001",
+            "streetAddress": "Serving Charleston and the Lowcountry",
+            "addressLocality": "Charleston",
+            "addressRegion": "SC",
+            "postalCode": "29401",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": 33.4484,
-            "longitude": -112.0740
+            "latitude": 32.7765,
+            "longitude": -79.9311
           },
           "openingHoursSpecification": {
             "@type": "OpeningHoursSpecification",
