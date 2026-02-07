@@ -1,43 +1,43 @@
-import { Shield, Truck, Clock, MapPin, Award, DollarSign } from "lucide-react";
+import { Shield, Microscope, MapPin, Building2, ClipboardCheck, Zap } from "lucide-react";
 
 const reasons = [
   {
     icon: Shield,
-    title: "Licensed Experts",
-    description: "Our team consists of fully licensed and insured septic service professionals in North Dakota. We follow all environmental and safety protocols."
+    title: "Licensed Specialists",
+    description: "Our plumbing experts are fully licensed in North Carolina with specialized certification in under-slab leak detection and foundation repair."
   },
   {
-    icon: Truck,
-    title: "High-Capacity Trucks",
-    description: "We use modern, high-capacity vacuum trucks to ensure efficient pumping and thorough cleaning of residential and commercial septic systems."
+    icon: Microscope,
+    title: "Advanced Technology",
+    description: "We use the latest sonar and thermal imaging devices to locate leaks through concrete and soil, ensuring we only dig where absolutely necessary."
   },
   {
     icon: MapPin,
-    title: "Bismarck Locals",
-    description: "We are locally owned and operated. From downtown Bismarck to rural Burleigh County, we know the local soil conditions and regulations."
+    title: "Asheville Locals",
+    description: "Deeply familiar with Asheville's unique geographic challenges, from mountain soil shifting to historic West Asheville piping systems."
   },
   {
-    icon: Award,
-    title: "System Preservation",
-    description: "Regular pumping is key to preserving your drain field. We provide professional advice and inspections to help extend the life of your system."
+    icon: Building2,
+    title: "Foundation Protection",
+    description: "Our methods prioritize the structural integrity of your home's foundation. We work cleanly and efficiently to preserve your property value."
   },
   {
-    icon: DollarSign,
-    title: "No Hidden Fees",
-    description: "Honest, upfront pricing for every job. We provide clear quotes including disposal fees, so you know exactly what to expect."
+    icon: ClipboardCheck,
+    title: "Upfront Pricing",
+    description: "No hidden fees. We provide clear, itemized estimates for both detection and repair, so you know the full cost before we start."
   },
   {
-    icon: Clock,
+    icon: Zap,
     title: "Rapid Response",
-    description: "Septic issues can't wait. We offer flexible scheduling and emergency response to ensure your system is back in order as quickly as possible."
+    description: "Slab leaks don't wait. We provide priority scheduling for Asheville foundation emergencies to prevent catastrophic water damage."
   }
 ];
 
 const stats = [
-  { number: "1000+", label: "Tanks Pumped" },
-  { number: "100%", label: "Burleigh Compliant" },
-  { number: "5-Star", label: "Local Service" },
-  { number: "Local", label: "Bismarck, ND" }
+  { number: "500+", label: "Leaks Found" },
+  { number: "100%", label: "Licensed & Insured" },
+  { number: "24/7", label: "Emergency Support" },
+  { number: "Local", label: "Asheville, NC" }
 ];
 
 const WhyUs = () => {
@@ -46,47 +46,45 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Bismarck's Trusted Septic Pumping Experts
+            Western NC's Preferred Leak Detection Team
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Providing reliable, professional, and rapid septic cleaning services throughout Bismarck and the surrounding North Dakota communities.
+            Combining local expertise with high-tech diagnostic tools to provide Asheville homeowners with reliable, non-invasive slab leak solutions.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {reasons.map((reason, index) => {
-            const Icon = reason.icon;
-            return (
-              <div
-                key={index}
-                className="bg-white border border-slate-100 rounded-xl p-6 hover:shadow-lg transition-shadow"
-              >
-                <div className="w-12 h-12 rounded-lg bg-emerald-50 flex items-center justify-center mb-4">
-                  <Icon className="w-6 h-6 text-emerald-600" />
-                </div>
-                <h3 className="text-xl font-heading font-bold text-slate-900 mb-3">
-                  {reason.title}
-                </h3>
-                <p className="text-slate-600 leading-relaxed">
-                  {reason.description}
-                </p>
+          {reasons.map((reason, index) => (
+            <div
+              key={index}
+              className="p-8 rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-md transition-shadow"
+            >
+              <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                <reason.icon className="w-6 h-6 text-blue-600" />
               </div>
-            );
-          })}
-        </div>
-
-        {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 bg-white border border-slate-100 rounded-xl p-8 shadow-sm">
-          {stats.map((stat, index) => (
-            <div key={index} className="text-center">
-              <div className="text-3xl md:text-4xl font-heading font-bold text-emerald-600 mb-2">
-                {stat.number}
-              </div>
-              <div className="text-sm text-slate-500 font-medium uppercase tracking-wide">
-                {stat.label}
-              </div>
+              <h3 className="text-xl font-heading font-bold text-slate-900 mb-3">
+                {reason.title}
+              </h3>
+              <p className="text-slate-600 leading-relaxed">
+                {reason.description}
+              </p>
             </div>
           ))}
+        </div>
+
+        <div className="bg-blue-600 rounded-3xl p-12 text-white">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+            {stats.map((stat, index) => (
+              <div key={index} className="space-y-2">
+                <div className="text-4xl md:text-5xl font-heading font-bold">
+                  {stat.number}
+                </div>
+                <div className="text-blue-100 font-medium">
+                  {stat.label}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
@@ -94,4 +92,3 @@ const WhyUs = () => {
 };
 
 export default WhyUs;
-

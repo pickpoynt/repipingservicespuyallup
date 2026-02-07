@@ -7,70 +7,63 @@ import {
 
 const faqs = [
   {
-    question: "How often should I pump my septic tank in Bismarck?",
-    answer: "Most experts and local health departments in Bismarck recommend pumping your septic tank every 3-5 years. However, this depends on your household size and the amount of wastewater generated. Regular pumping prevents solids from escaping into your drain field."
+    question: "What exactly is a slab leak?",
+    answer: "A slab leak occurs when the water lines (either incoming pressure lines or outgoing drain lines) located beneath your home's concrete foundation develop a leak. These are dangerous because they are hidden from view and can compromise your foundation's structural integrity."
   },
   {
-    question: "How much does septic pumping cost in Bismarck?",
-    answer: "A standard 1,000-gallon septic tank pumping in the Bismarck area typically costs between $350 and $550. Prices can vary based on the size of the tank, the distance of the house from our facility, and whether any digging is required to access the lids."
+    question: "What are the common signs of a slab leak in Asheville?",
+    answer: "Common indicators include hot spots on your floor, the sound of running water when faucets are off, unexplained dampness or mold on baseboards, a sudden spike in your Asheville water bill, or cracks forming in your foundation or walls."
   },
   {
-    question: "What are the signs that my septic tank is full?",
-    answer: "Common warning signs include slow-draining sinks or toilets, gurgling sounds in your plumbing, sewage odors near your tank or drain field, and unusually lush or green grass over the absorption area. If you experience these, call for an inspection immediately."
+    question: "Do you use non-destructive detection methods?",
+    answer: "Yes. We use advanced electronic acoustic listening devices and thermal imaging technology to pinpoint the leak location through the concrete. This allows us to identify the exact spot for repair, preventing unnecessary damage to your flooring."
   },
   {
-    question: "Do I need to be home for the pumping service?",
-    answer: "No, you don't necessarily need to be home as long as we have clear access to your septic tank lids. We do recommend being available via phone in case we discover any issues during our inspection that require your attention."
+    question: "How much does slab leak repair cost in Asheville?",
+    answer: "Detection typically costs between $250 and $600. Repair costs vary depending on the leak location and method (spot repair vs. re-routing), typically ranging from $1,500 to $4,000. We provide upfront estimates before any work begins."
   },
   {
-    question: "Where is my septic tank located?",
-    answer: "If you're unsure, we can help locate it using specialized electronic locators or by following the main sewer line out of your home. Having your property's as-built drawing from the Burleigh County health department also helps."
+    question: "Will my homeowners insurance cover the repair?",
+    answer: "Most Asheville policies cover the 'access' and 'repair to property' caused by the leak, though they may not cover the specific pipe repair itself. We provide comprehensive documentation and photos to help you successfully file your claim."
   },
   {
-    question: "What shouldn't I flush down my septic system?",
-    answer: "Avoid flushing grease, oils, feminine hygiene products, 'flushable' wipes, chemicals, and excessive amounts of household cleaners. These can kill the beneficial bacteria in your tank or cause mechanical blockages."
+    question: "How long does the detection and repair process take?",
+    answer: "Most leaks can be detected within 1-2 hours. A standard direct-access repair usually takes 1 business day, while more complex re-routing may take 2-3 days."
   },
   {
-    question: "Is septic tank cleaning different from pumping?",
-    answer: "Pumping primarily removes the liquids and floating solids. Cleaning involves a more thorough removal of the 'sludge' layer at the bottom of the tank and washing the interior walls and baffles to ensure everything is clear."
-  },
-  {
-    question: "How can I make my septic system last longer?",
-    answer: "The best ways to extend its life are regular pumping (every 3-5 years), cleaning the effluent filter, conserving water, and avoiding driving heavy vehicles over the tank or drain field."
+    question: "What causes slab leaks in Western North Carolina?",
+    answer: "Local factors include clay soil expansion and contraction, mountain terrain shifting, and the corrosive nature of some local water supplies on older copper piping systems."
   }
 ];
 
 const FAQ = () => {
   return (
     <section id="faq" className="py-20 bg-white">
-      <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-              Bismarck Septic Pumping FAQs
-            </h2>
-            <p className="text-lg text-slate-600">
-              Common questions about septic maintenance and cleaning in Bismarck, ND.
-            </p>
-          </div>
-
-          <Accordion type="single" collapsible className="w-full">
-            {faqs.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index}`} className="border-b border-slate-200">
-                <AccordionTrigger className="text-left font-heading font-semibold text-slate-900 hover:text-emerald-600 py-4">
-                  {faq.question}
-                </AccordionTrigger>
-                <AccordionContent className="text-slate-600 pb-4 leading-relaxed">
-                  {faq.answer}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
+      <div className="container mx-auto px-4 max-w-4xl">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
+            Leak Detection & Repair FAQ
+          </h2>
+          <p className="text-lg text-slate-600">
+            Answers to common questions about slab leaks and foundation plumbing in Asheville.
+          </p>
         </div>
+
+        <Accordion type="single" collapsible className="w-full space-y-4">
+          {faqs.map((faq, index) => (
+            <AccordionItem key={index} value={`item-${index}`} className="border border-slate-200 rounded-xl px-4 bg-white shadow-sm overflow-hidden">
+              <AccordionTrigger className="text-left font-heading font-bold text-slate-900 hover:text-blue-600 py-6 transition-colors">
+                {faq.question}
+              </AccordionTrigger>
+              <AccordionContent className="text-slate-600 leading-relaxed pb-6">
+                {faq.answer}
+              </AccordionContent>
+            </AccordionItem>
+          ))}
+        </Accordion>
       </div>
     </section>
   );
 };
 
 export default FAQ;
-

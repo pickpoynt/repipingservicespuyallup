@@ -1,49 +1,44 @@
-import { Link as LinkIcon } from "lucide-react";
+import { ExternalLink } from "lucide-react";
+
+const links = [
+  {
+    name: "Scottsdale Water Treatment",
+    url: "https://scottsdalewatertreatment.netlify.app/"
+  },
+  {
+    name: "Scottsdale Plumber",
+    url: "https://plumbernearmescottsdale.netlify.app/"
+  },
+  {
+    name: "Emergency Plumbing Scottsdale",
+    url: "https://plumbingemergencyscottsdale.netlify.app/"
+  },
+  {
+    name: "Scottsdale Garage Door Repair",
+    url: "https://garagedoorrepairscottsdaleaz.netlify.app/"
+  },
+];
 
 const RandomLinks = () => {
-  // Randomly selected 4 links from the provided list
-  const links = [
-    {
-      name: "Greywater System Installation Tempe",
-      url: "https://greywatersysteminstallationtempe.vercel.app/"
-    },
-    {
-      name: "Ceramic Kiln Electrical Hookup Asheville",
-      url: "https://ceramickilnelectricalhookupashevill.vercel.app/"
-    },
-    {
-      name: "RV Pedestal Installation Plano",
-      url: "https://rvpedestalinstallationplanotx.vercel.app"
-    },
-    {
-      name: "Cheap Ceiling Fan Installation Spokane",
-      url: "https://cheapceilingfaninstallationspokanew.vercel.app/"
-    }
-  ];
-
   return (
-    <section className="py-12 bg-slate-100">
-      <div className="container mx-auto px-4 text-center">
-        <div className="mb-8">
-          <h3 className="text-2xl font-heading font-bold text-slate-900 mb-2">
-            Related Local Services
-          </h3>
-          <p className="text-slate-600">
-            Explore our network of specialized home service providers across the United States
-          </p>
-        </div>
-
-        <div className="flex flex-wrap justify-center gap-4">
+    <section className="py-12 bg-slate-50 border-t border-slate-100">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-wrap justify-center items-center gap-6">
+          <span className="text-slate-400 font-medium text-sm lg:mr-4 uppercase tracking-widest text-center w-full lg:w-auto mb-4 lg:mb-0">
+            Expert Plumbers Recommended
+          </span>
           {links.map((link, index) => (
             <a
               key={index}
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-white border border-slate-200 rounded-lg hover:shadow-md hover:border-emerald-300 transition-all duration-200 text-slate-700 hover:text-emerald-600 font-medium"
+              className="group flex items-center gap-2 px-6 py-3 bg-white border border-slate-200 rounded-2xl text-slate-600 hover:text-blue-600 hover:border-blue-300 hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-300"
             >
-              <LinkIcon className="w-4 h-4" />
-              {link.name}
+              <span className="font-bold text-sm tracking-tight">{link.name}</span>
+              <div className="w-5 h-5 rounded-full bg-slate-100 flex items-center justify-center group-hover:bg-blue-50 transition-colors">
+                <ExternalLink className="w-3 h-3 text-slate-400 group-hover:text-blue-600 transition-colors" />
+              </div>
             </a>
           ))}
         </div>

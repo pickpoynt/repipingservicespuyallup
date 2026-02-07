@@ -1,54 +1,54 @@
-import { Truck, Activity, Settings, Shield, AlertTriangle, CheckCircle2, Box, Droplets } from "lucide-react";
+import { Search, Droplets, Shield, Hammer, AlertTriangle, Waves, Activity, Zap } from "lucide-react";
 
 const services = [
   {
-    icon: Truck,
-    title: "Septic Pumping",
-    description: "Complete septic tank pumping for Bismarck homes. We remove sludge and scum to prevent system overflows and maintain healthy drainage.",
-    link: "#septic-info"
+    icon: Search,
+    title: "Electronic Detection",
+    description: "Using high-frequency acoustic equipment to pinpoint the exact location of water leaks under your concrete slab with zero damage.",
+    link: "#slab-info"
+  },
+  {
+    icon: Hammer,
+    title: "Slab Repair",
+    description: "Professional repair of leaking copper or PEX lines under your foundation using precision direct-access methods to minimize debris.",
+    link: "#slab-info"
   },
   {
     icon: Activity,
-    title: "Tank Cleaning",
-    description: "Professional cleaning of septic tanks using high-vacuum equipment. We ensure your tank is clear of solids and operating at peak efficiency.",
-    link: "#septic-info"
+    title: "Thermal Imaging",
+    description: "Advanced infrared technology to detect temperature variances in your floors, helping to confirm the presence of hot water slab leaks.",
+    link: "#slab-info"
   },
   {
-    icon: Settings,
-    title: "System Inspection",
-    description: "Comprehensive visual inspections of baffles, lids, and overall tank health. Included with every pumping service in Bismarck and Mandan.",
-    link: "#septic-info"
+    icon: Zap,
+    title: "Emergency Service",
+    description: "Facing a major foundation flood? Our Asheville team provides 24/7 rapid response to mitigate water damage and stop the leak.",
+    link: "#slab-info"
   },
   {
     icon: Shield,
-    title: "Filter Maintenance",
-    description: "Cleaning and servicing of effluent filters to protect your leach field from clogging and extend the life of your entire septic system.",
-    link: "#septic-info"
+    title: "Trenchless Solutions",
+    description: "Innovative pipe lining and coating services that repair slab leaks from the inside out without the need for trenching your floors.",
+    link: "#slab-info"
+  },
+  {
+    icon: Waves,
+    title: "Hydrostatic Testing",
+    description: "Comprehensive pressure testing of your home's entire plumbing system to identify the presence and severity of under-slab leaks.",
+    link: "#slab-info"
   },
   {
     icon: AlertTriangle,
-    title: "Emergency Service",
-    description: "Rapid response for septic backups and system failures. We identify blockages and pump tanks quickly to prevent domestic sewage issues.",
-    link: "#septic-info"
-  },
-  {
-    icon: Box,
-    title: "Riser Installation",
-    description: "Installing septic tank risers for easier access. No more digging up your yard every time you need a pump or an inspection.",
-    link: "#septic-info"
+    title: "Insurance Assistance",
+    description: "We work directly with your insurance provider in Buncombe County, providing documented proof of slab leaks for your claim.",
+    link: "#slab-info"
   },
   {
     icon: Droplets,
-    title: "Drain Field Care",
-    description: "Preventative maintenance for drainage fields. We use eco-friendly treatments to help break down solids and maintain soil absorption.",
-    link: "#septic-info"
-  },
-  {
-    icon: CheckCircle2,
-    title: "Eco Disposal",
-    description: "Safe and responsible disposal of septic waste at approved facilities, strictly following North Dakota environmental regulations.",
-    link: "#septic-info"
-  },
+    title: "Full Re-piping",
+    description: "When old pipes are too far gone, we provide strategic re-piping to bypass under-floor lines entirely, ensuring a permanent fix.",
+    link: "#slab-info"
+  }
 ];
 
 const Services = () => {
@@ -57,10 +57,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Bismarck Septic Pumping Services
+            Specialized Slab Leak Solutions in Asheville
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Professional septic maintenance and cleaning services in Bismarck, North Dakota. Licensed experts ensuring safety and environmental compliance.
+            Providing Western North Carolina's most advanced under-slab plumbing diagnostics and minimally invasive repair techniques.
           </p>
         </div>
 
@@ -73,10 +73,10 @@ const Services = () => {
                 className="group bg-slate-50 border border-slate-100 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer"
               >
                 <a href={service.link}>
-                  <div className="w-12 h-12 rounded-lg bg-emerald-100 flex items-center justify-center mb-4 group-hover:bg-emerald-600 transition-colors">
-                    <Icon className="w-6 h-6 text-emerald-600 group-hover:text-white transition-colors" />
+                  <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors">
+                    <Icon className="w-6 h-6 text-blue-600 group-hover:text-white transition-colors" />
                   </div>
-                  <h3 className="text-lg font-heading font-bold text-slate-900 mb-2 group-hover:text-emerald-600 transition-colors">
+                  <h3 className="text-lg font-heading font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors">
                     {service.title}
                   </h3>
                   <p className="text-slate-600 text-sm leading-relaxed">
@@ -93,4 +93,5 @@ const Services = () => {
 };
 
 export default Services;
+
 

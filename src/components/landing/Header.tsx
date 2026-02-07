@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Phone, Menu, X, Truck } from "lucide-react";
+import { Phone, Menu, X, Droplets } from "lucide-react";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -30,15 +30,15 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${isScrolled ? "bg-emerald-600" : "bg-white"}`}>
-              <Truck className={`w-6 h-6 ${isScrolled ? "text-white" : "text-emerald-600"}`} />
+            <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${isScrolled ? "bg-blue-600" : "bg-white"}`}>
+              <Droplets className={`w-6 h-6 ${isScrolled ? "text-white" : "text-blue-600"}`} />
             </div>
             <div>
               <span className={`font-heading font-bold text-xl block leading-none ${isScrolled ? "text-slate-900" : "text-white"}`}>
-                Bismarck
+                Asheville
               </span>
-              <span className={`text-sm font-medium ${isScrolled ? "text-emerald-600" : "text-emerald-100"}`}>
-                Septic Pumping
+              <span className={`text-sm font-medium ${isScrolled ? "text-blue-600" : "text-blue-100"}`}>
+                Slab Leak Pros
               </span>
             </div>
           </div>
@@ -49,7 +49,7 @@ const Header = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className={`text-sm font-medium transition-colors hover:text-emerald-400 ${isScrolled ? "text-slate-600" : "text-white/90"
+                className={`text-sm font-medium transition-colors hover:text-blue-400 ${isScrolled ? "text-slate-600" : "text-white/90"
                   }`}
               >
                 {link.name}
@@ -57,8 +57,8 @@ const Header = () => {
             ))}
             <Button
               className={`${isScrolled
-                ? "bg-emerald-600 text-white hover:bg-emerald-700"
-                : "bg-white text-emerald-900 hover:bg-emerald-50"
+                ? "bg-blue-600 text-white hover:bg-blue-700"
+                : "bg-white text-blue-900 hover:bg-blue-50"
                 }`}
             >
               <a href="tel:8777921410" className="flex items-center gap-2">
@@ -89,13 +89,13 @@ const Header = () => {
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-slate-600 hover:text-emerald-600 transition-colors font-medium py-2 px-2"
+                  className="text-slate-600 hover:text-blue-600 transition-colors font-medium py-2 px-2"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {link.name}
                 </a>
               ))}
-              <Button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white" size="lg" asChild>
+              <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white" size="lg" asChild>
                 <a href="tel:8777921410" className="flex items-center justify-center gap-2">
                   <Phone className="w-5 h-5" />
                   (877) 792-1410
@@ -110,4 +110,5 @@ const Header = () => {
 };
 
 export default Header;
+
 

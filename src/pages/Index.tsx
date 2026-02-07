@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import SepticTankPumpingInfo from "@/components/landing/SepticTankPumpingInfo";
+import SlabLeakInfo from "@/components/landing/SlabLeakInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -14,82 +14,82 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Septic tank pumping Bismarck ND | Bismarck Septic Pumping Service</title>
-        <meta name="description" content="Professional septic tank pumping and cleaning in Bismarck, ND. Expert septic inspections, maintenance, and emergency service in Burleigh County. Call (877) 792-1410 today!" />
-        <meta name="keywords" content="septic tank pumping Bismarck ND, septic cleaning Bismarck, septic service Bismarck ND, Bismarck septic pumping, septic tank repair Bismarck" />
-        <link rel="canonical" href="https://septic-tank-pumping-bismarck-nd.com/" />
+        <title>slab leak repair asheville nc | Asheville Slab Leak Pros: Expert Detection & Repair</title>
+        <meta name="description" content="Expert slab leak repair asheville nc. Professional leak detection, under-slab plumbing, and foundation water leak repairs. Licensed plumbers serving Buncombe County. Call (877) 792-1410 today!" />
+        <meta name="keywords" content="slab leak repair asheville nc, leak detection Asheville, under slab plumbing repair NC, foundation leak repair Asheville, slab leak detection Western NC" />
+        <link rel="canonical" href="https://slab-leak-repair-asheville-nc.com/" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Bismarck Septic Pumping Service",
-            "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80",
+            "name": "Asheville Slab Leak Pros",
+            "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80",
             "telephone": "+1-877-792-1410",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Bismarck",
-              "addressRegion": "ND",
-              "postalCode": "58501",
+              "addressLocality": "Asheville",
+              "addressRegion": "NC",
+              "postalCode": "28801",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "46.8083",
-              "longitude": "-100.7837"
+              "latitude": "35.5951",
+              "longitude": "-82.5515"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Bismarck, North Dakota"
+              "name": "Asheville, North Dakota"
             },
-            "priceRange": "$$",
-            "description": "Professional septic tank pumping, cleaning, and maintenance services in Bismarck, North Dakota. Licensed experts for residential and commercial systems."
+            "priceRange": "$$$",
+            "description": "Professional slab leak detection and repair services in Asheville, North Carolina. We use advanced acoustic technology to find and fix leaks beneath your foundation."
           })}
         </script>
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Septic Services",
+            "serviceType": "Slab Leak Repair",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Bismarck Septic Pumping Service",
+              "name": "Asheville Slab Leak Pros",
               "telephone": "+1-877-792-1410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Bismarck, North Dakota"
+              "name": "Asheville, North Carolina"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Septic System Services",
+              "name": "Leak Detection & Repair Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Septic Tank Pumping"
+                    "name": "Electronic Slab Leak Detection"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Septic Tank Cleaning"
+                    "name": "Under-Slab Pipe Repair"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Septic System Inspection"
+                    "name": "Foundation Leak Diagnosis"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Drain Field Maintenance"
+                    "name": "Pipe Re-routing & Re-piping"
                   }
                 }
               ]
@@ -98,23 +98,23 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Septic tank pumping Bismarck ND | Bismarck Septic Pumping Service" />
-        <meta property="og:description" content="Expert septic tank pumping and cleaning in Bismarck, ND. Licensed professionals for safe and efficient septic maintenance. Call (877) 792-1410." />
+        <meta property="og:title" content="slab leak repair asheville nc | Asheville Slab Leak Pros" />
+        <meta property="og:description" content="Expert slab leak repair in Asheville, NC. Professional detection and repair of foundation water leaks using non-invasive technology. Call (877) 792-1410." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://septic-tank-pumping-bismarck-nd.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://slab-leak-repair-asheville-nc.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80" />
 
         {/* Twitter Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Septic tank pumping Bismarck ND | Bismarck Septic Pumping Service" />
-        <meta name="twitter:description" content="Professional septic tank pumping in Bismarck. Safe and reliable septic system maintenance." />
-        <meta name="twitter:image" content="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80" />
+        <meta name="twitter:title" content="slab leak repair asheville nc | Asheville Slab Leak Pros" />
+        <meta name="twitter:description" content="Professional slab leak repair in Asheville. Advanced detection and repair of under-slab plumbing issues." />
+        <meta name="twitter:image" content="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80" />
       </Helmet>
       <Header />
       <Hero />
       <Services />
       <WhyUs />
-      <SepticTankPumpingInfo />
+      <SlabLeakInfo />
       <FAQ />
       <Contact />
       <RandomLinks />
@@ -124,4 +124,5 @@ const Index = () => {
 };
 
 export default Index;
+
 
