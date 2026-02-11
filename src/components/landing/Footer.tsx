@@ -48,7 +48,7 @@ const Footer = () => {
               <li><a href="#why-us" className="text-slate-400 hover:text-indigo-500 transition-colors font-medium">Our Pure Air Pledge</a></li>
               <li><a href="#musty-odor-info" className="text-slate-400 hover:text-indigo-500 transition-colors font-medium">Odor Science</a></li>
               <li><a href="#faq" className="text-slate-400 hover:text-indigo-500 transition-colors font-medium">Neutralization FAQ</a></li>
-              <li><a href="#contact" className="text-slate-400 hover:text-indigo-500 transition-colors font-medium">Free Air Analysis</a></li>
+              <li><a href="#contact" className="text-slate-400 hover:text-indigo-500 transition-colors font-medium">Air Analysis</a></li>
               <li><p className="text-slate-400 font-medium">Privacy Policy</p></li>
             </ul>
           </div>

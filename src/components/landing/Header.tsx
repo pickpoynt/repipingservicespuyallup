@@ -24,8 +24,8 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled
-          ? "bg-white/95 backdrop-blur-md py-4 shadow-lg border-b border-indigo-50"
-          : "bg-transparent py-6"
+        ? "bg-white/95 backdrop-blur-md py-4 shadow-lg border-b border-indigo-50"
+        : "bg-transparent py-6"
         }`}
     >
       <div className="container mx-auto px-4">
@@ -68,7 +68,7 @@ const Header = () => {
               </a>
             </div>
             <Button className={`${isScrolled ? "bg-indigo-600 hover:bg-indigo-700 shadow-indigo-900/20" : "bg-white text-slate-900 hover:bg-indigo-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
-              <a href="#contact">Free Air Analysis</a>
+              <a href="#contact">Air Analysis</a>
             </Button>
           </div>
 

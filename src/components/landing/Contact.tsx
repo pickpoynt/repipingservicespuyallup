@@ -94,7 +94,7 @@ const Contact = () => {
                   ></textarea>
                 </div>
                 <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-16 rounded-xl text-lg font-bold shadow-lg shadow-indigo-900/20">
-                  Request Free Analysis
+                  Request Air Analysis
                 </Button>
                 <p className="text-center text-slate-500 text-sm italic font-medium">
                   *Molecular technology and eco-safe protocols
