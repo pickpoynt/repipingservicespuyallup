@@ -121,7 +121,7 @@ const Index = () => {
           }
           subtitle="Charlotte's trusted authority for high-performance infrastructure. We provide advanced leak detection, master drain restoration, and precision emergency repair. Professional Quality Mastercraft."
           image="https://images.unsplash.com/photo-1490151700639-6500772702f3?q=80&w=2669&auto=format&fit=crop"
-          overlayImage="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80"
+          overlayImage="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80"
           badge="CHARLOTTE MASTER PLUMBERS"
         />
         <Services />
