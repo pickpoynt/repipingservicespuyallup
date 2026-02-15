@@ -116,12 +116,12 @@ const Index = () => {
           title={
             <>
               plumber charlotte nc
-              <span className="block text-blue-400 mt-2 text-2xl md:text-3xl italic">Charlotte Plumbing Pros</span>
+              <span className="block text-emerald-400 mt-2 text-2xl md:text-3xl italic">Charlotte Plumbing Pros</span>
             </>
           }
           subtitle="Charlotte's trusted authority for high-performance infrastructure. We provide advanced leak detection, master drain restoration, and precision emergency repair. Professional Quality Mastercraft."
           image="https://images.unsplash.com/photo-1490151700639-6500772702f3?q=80&w=2669&auto=format&fit=crop"
-          overlayImage="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80"
+          overlayImage="https://images.unsplash.com/photo-1542013936693-884638332a53?auto=format&fit=crop&q=80"
           badge="CHARLOTTE MASTER PLUMBERS"
         />
         <Services />

@@ -33,14 +33,14 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2 group cursor-pointer">
-            <div className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-all duration-300 ${isScrolled ? "bg-blue-600 rotate-0" : "bg-white/10 backdrop-blur-md border border-white/20 rotate-[-10deg] group-hover:rotate-0"}`}>
-              <Hammer className={`w-7 h-7 ${isScrolled ? "text-white" : "text-blue-500"}`} />
+            <div className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-all duration-300 ${isScrolled ? "bg-emerald-600 rotate-0" : "bg-white/10 backdrop-blur-md border border-white/20 rotate-[-10deg] group-hover:rotate-0"}`}>
+              <Hammer className={`w-7 h-7 ${isScrolled ? "text-white" : "text-emerald-500"}`} />
             </div>
             <div>
-              <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-slate-900" : "text-white"}`}>
+              <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-emerald-950" : "text-white"}`}>
                 Charlotte
               </span>
-              <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-blue-600" : "text-blue-400"}`}>
+              <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-emerald-600" : "text-emerald-400"}`}>
                 Plumbing <span className="text-[10px] opacity-70">Pros</span>
               </span>
             </div>

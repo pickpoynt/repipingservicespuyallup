@@ -15,44 +15,44 @@
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 15%;
 
-    --primary: 215 60% 25%;
+    --primary: 165 60% 15%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 30 65% 50%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 45 75% 55%;
+    --secondary-foreground: 165 60% 10%;
 
-    --muted: 210 15% 92%;
-    --muted-foreground: 215 15% 45%;
+    --muted: 165 20% 92%;
+    --muted-foreground: 165 15% 45%;
 
-    --accent: 30 65% 50%;
+    --accent: 45 75% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 165 40% 98%;
 
-    --border: 214 20% 88%;
-    --input: 214 20% 88%;
-    --ring: 215 60% 25%;
+    --border: 165 20% 88%;
+    --input: 165 20% 88%;
+    --ring: 165 60% 25%;
 
     --radius: 0.5rem;
 
     /* Custom tokens */
-    --copper: 25 70% 45%;
-    --copper-light: 30 60% 65%;
-    --navy-dark: 215 65% 18%;
-    --navy-light: 215 45% 35%;
+    --emerald: 165 60% 15%;
+    --emerald-light: 165 45% 35%;
+    --gold: 45 75% 55%;
+    --gold-light: 45 60% 65%;
     --steel: 210 10% 60%;
-    --cream: 40 30% 96%;
+    --cream: 45 30% 98%;
 
-    --gradient-hero: linear-gradient(135deg, hsl(215 65% 18%) 0%, hsl(215 45% 35%) 100%);
-    --gradient-copper: linear-gradient(135deg, hsl(25 70% 45%) 0%, hsl(30 60% 55%) 100%);
-    --gradient-overlay: linear-gradient(180deg, hsla(215 65% 18% / 0.85) 0%, hsla(215 45% 35% / 0.7) 100%);
-    --gradient-hottub: linear-gradient(135deg, #1e3a8a 0%, #0c4a6e 50%, #0369a1 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(165 60% 15%) 0%, hsl(165 45% 30%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(45 75% 55%) 0%, hsl(45 60% 65%) 100%);
+    --gradient-overlay: linear-gradient(180deg, hsla(165 60% 15% / 0.85) 0%, hsla(165 45% 35% / 0.7) 100%);
+    --gradient-hottub: linear-gradient(135deg, #064e3b 0%, #065f46 50%, #047857 100%);
 
-    --shadow-sm: 0 1px 2px hsla(215 25% 15% / 0.05);
-    --shadow-md: 0 4px 12px hsla(215 25% 15% / 0.1);
-    --shadow-lg: 0 12px 40px hsla(215 25% 15% / 0.15);
-    --shadow-copper: 0 8px 30px hsla(25 70% 45% / 0.3);
+    --shadow-sm: 0 1px 2px hsla(165 25% 15% / 0.05);
+    --shadow-md: 0 4px 12px hsla(165 25% 15% / 0.1);
+    --shadow-lg: 0 12px 40px hsla(165 25% 15% / 0.15);
+    --shadow-gold: 0 8px 30px hsla(45 75% 55% / 0.3);
   }
 
   .dark {
