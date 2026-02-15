@@ -124,7 +124,7 @@ const SanAntonioPlumbingInfo = () => {
                         Our Priority Service Zones
                     </h4>
                     <div className="flex flex-wrap justify-center gap-4">
-                        {["Alamo Heights", "Stone Oak", "The Dominion", "Boerne", "Helotes", "Cibolo", "Schertz", "Converse"].map((area) => (
+                        {["Alamo Heights", "Stone Oak", "The Dominion", "Boerne", "Helotes", "Cibolo", "Schertz", "Converse", "Dallas Plumbing"].map((area) => (
                             <a
                                 key={area}
                                 href="https://dallasplumber.vercel.app"
