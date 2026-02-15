@@ -11,10 +11,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mb-16 mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 uppercase tracking-tight">
-            Why West Nyack Trusts Our <span className="text-gold-400">Master Plumbers</span>
+            Why West Hempstead Trusts Our <span className="text-gold-400">Master Plumbers</span>
           </h2>
           <p className="text-xl text-slate-400 leading-relaxed font-medium italic">
-            Protecting Rockland County infrastructure with technical precision. We specialize in precision plumbing restoration and rapid repair for West Nyack homeowners.
+            Protecting Nassau County infrastructure with technical precision. We specialize in resilient plumbing restoration and rapid repair for West Hempstead homeowners.
           </p>
         </div>
 
@@ -27,13 +27,13 @@ const WhyUs = () => {
             },
             {
               icon: MapPin,
-              title: "West Nyack Local Ready",
-              description: "Our teams are stationed throughout Rockland County, meaning rapid response times when pipe failures and moisture signs appear in Clarkstown."
+              title: "West Hempstead Local Ready",
+              description: "Our teams are stationed throughout Nassau County, meaning rapid response times when pipe failures and infrastructure issues appear in the Town of Hempstead."
             },
             {
               icon: Calendar,
               title: "Emergency Response",
-              description: "Plumbing failures are constant threats. We offer priority dispatching for West Nyack system assessments and rapid restoration."
+              description: "Plumbing failures are constant threats. We offer priority dispatching for West Hempstead system assessments and rapid restoration."
             },
             {
               icon: DollarSign,
@@ -60,7 +60,7 @@ const WhyUs = () => {
           <div className="max-w-xl">
             <h3 className="text-3xl font-bold text-white mb-4">Plumbing Emergency?</h3>
             <p className="text-blue-50 text-lg font-medium opacity-90">
-              Don't wait for structural damage. Our West Nyack specialist team is ready to restore your systems 24/7.
+              Don't wait for structural damage. Our West Hempstead specialist team is ready to restore your systems 24/7.
             </p>
           </div>
           <a

@@ -7,20 +7,20 @@ import {
 
 const faqs = [
   {
-    question: "Do you offer emergency plumbing in West Nyack?",
-    answer: "Yes. Our West Nyack emergency teams are available 24/7 for urgent pipe bursts, major leaks, and drainage failures. We provide rapid dispatching across Rockland County to minimize property damage."
+    question: "Do you offer emergency plumbing in West Hempstead?",
+    answer: "Yes. Our West Hempstead emergency teams are available 24/7 for urgent pipe bursts, main line failures, and severe leaks. We provide rapid dispatching across Nassau County to protect your home's integrity."
   },
   {
-    question: "How do you find hidden leaks in West Nyack homes?",
-    answer: "We utilize advanced acoustic sensors and HD video diagnostics to pinpoint hidden failures, especially in the suburban foundations common in the Clarkstown area."
+    question: "How do you find hidden leaks in Hempstead homes?",
+    answer: "We utilize advanced electronic leak detection and HD sewer cameras to pinpoint failures buried within your home's infrastructure, especially in the historic foundations common in Nassau County."
   },
   {
-    question: "Are your plumbers licensed in New York?",
-    answer: "Absolutely. All our technicians are fully master-licensed professionals who adhere strictly to New York state building codes and Rockland County municipal standards for every project."
+    question: "Are your plumbers licensed in Nassau County?",
+    answer: "Absolutely. Our technicians are fully master-licensed and insured professionals who adhere strictly to Town of Hempstead plumbing codes and New York state safety standards."
   },
   {
-    question: "Will you provide a price assessment before starting?",
-    answer: "Absolutely. We believe in transparency. Our technicians will diagnose the issue and provide a clear, upfront, flat-rate pricing assessment before any technical restoration begins."
+    question: "Will you provide a technical assessment before starting?",
+    answer: "Absolutely. We believe in transparency. Our technicians will perform a comprehensive diagnostic and provide a clear, upfront, flat-rate pricing assessment before any restoration work begins."
   }
 ];
 
@@ -31,10 +31,10 @@ const FAQ = () => {
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <span className="text-emerald-600 font-bold tracking-widest uppercase text-sm">Common Questions</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6">
-            West Nyack Plumbing <span className="text-emerald-600">FAQ</span>
+            West Hempstead Plumbing <span className="text-emerald-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Answers to common questions about infrastructure systems and expert service in Rockland County.
+            Answers to common questions about residential infrastructure and expert plumbing care in Nassau County.
           </p>
         </div>
 
