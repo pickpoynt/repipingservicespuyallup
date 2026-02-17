@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import StamfordPlumbingInfo from "@/components/landing/StamfordPlumbingInfo";
+import NorwalkPlumbingInfo from "@/components/landing/NorwalkPlumbingInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>plumbers stamford ct</title>
-        <meta name="description" content="plumbers stamford ct - Expert residential and commercial plumbing services in Stamford, CT. Emergency repairs, water heaters, and drain cleaning. Call (877) 792-1410." />
-        <meta name="keywords" content="plumbers stamford ct, Stamford plumbing, emergency plumber Stamford, water heater repair Stamford, drain cleaning Fairfield County" />
-        <link rel="canonical" href="https://plumbers-stamford-ct.com/" />
+        <title>plumbers norwalk ct</title>
+        <meta name="description" content="plumbers norwalk ct - Trusted residential and commercial plumbing services in Norwalk, CT. Emergency repairs, water heaters, and drain cleaning. Call (877) 792-1410." />
+        <meta name="keywords" content="plumbers norwalk ct, Norwalk plumbing, emergency plumber Norwalk, water heater repair Norwalk, drain cleaning Fairfield County" />
+        <link rel="canonical" href="https://plumbers-norwalk-ct.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Plumber Stamford CT Pros",
-            "image": "https://images.unsplash.com/photo-1585129777170-0708579d4760?auto=format&fit=crop&q=80",
+            "name": "Plumber Norwalk CT Pros",
+            "image": "https://images.unsplash.com/photo-1603712725038-e9334ae8f39f?auto=format&fit=crop&q=80",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Stamford",
+              "addressLocality": "Norwalk",
               "addressRegion": "CT",
-              "postalCode": "06901",
+              "postalCode": "06850",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "41.0534",
-              "longitude": "-73.5387"
+              "latitude": "41.1176",
+              "longitude": "-73.4079"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Stamford, CT"
+              "name": "Norwalk, CT"
             },
             "priceRange": "$$",
-            "description": "Professional plumbing services in Stamford, Connecticut. Specialized in leak detection, water heater repair, and emergency plumbing for Fairfield County residents."
+            "description": "Professional plumbing services in Norwalk, Connecticut. Specialized in leak detection, water heater repair, and emergency plumbing for residential and commercial properties."
           })}
         </script>
 
@@ -58,16 +58,16 @@ const Index = () => {
             "serviceType": "Plumbing Services",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Plumber Stamford CT Pros",
+              "name": "Plumber Norwalk CT Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Stamford, Connecticut"
+              "name": "Norwalk, Connecticut"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Stamford Plumbing Catalog",
+              "name": "Norwalk Plumbing Catalog",
               "itemListElement": [
                 {
                   "@type": "Offer",
@@ -87,7 +87,7 @@ const Index = () => {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Drain Cleaning"
+                    "name": "Leak Detection"
                   }
                 }
               ]
@@ -96,11 +96,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="plumbers stamford ct - Plumber Stamford CT Pros" />
-        <meta property="og:description" content="Expert plumbing services in Stamford, CT. Rapid response for emergencies, leaks, and installations in Fairfield County." />
+        <meta property="og:title" content="plumbers norwalk ct - Plumber Norwalk CT Pros" />
+        <meta property="og:description" content="Expert plumbing services in Norwalk, CT. Rapid response for emergencies, leaks, and installations in Fairfield County." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://plumbers-stamford-ct.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1585129777170-0708579d4760?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://plumbers-norwalk-ct.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1603712725038-e9334ae8f39f?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -108,18 +108,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              plumbers stamford ct
-              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Plumber Stamford CT Pros</span>
+              plumbers norwalk ct
+              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Plumber Norwalk CT Pros</span>
             </>
           }
-          subtitle="Stamford's premier plumbing experts. We provide comprehensive residential and commercial plumbing services. Serving Fairfield County with integrity."
-          image="https://images.unsplash.com/photo-1585129777170-0708579d4760?auto=format&fit=crop&q=80"
-          overlayImage="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&q=80"
-          badge="STAMFORD LICENSED PLUMBERS"
+          subtitle="Norwalk's trusted plumbing authorities. Delivering top-rated residential and commercial plumbing solutions. Serving South Norwalk, Rowayton, and beyond with excellence."
+          image="https://images.unsplash.com/photo-1603712725038-e9334ae8f39f?auto=format&fit=crop&q=80"
+          overlayImage="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80"
+          badge="NORWALK LICENSED PLUMBERS"
         />
         <Services />
         <WhyUs />
-        <StamfordPlumbingInfo />
+        <NorwalkPlumbingInfo />
         <FAQ />
         <Contact />
         <RandomLinks />

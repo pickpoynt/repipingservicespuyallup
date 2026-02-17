@@ -1,30 +1,12 @@
 import { ExternalLink } from "lucide-react";
 
 const links = [
-  {
-    name: "Dallas Plumber",
-    url: "https://dallasplumber.vercel.app"
-  },
-  {
-    name: "San Antonio Plumbing",
-    url: "https://sanantonioplumbing.vercel.app"
-  },
-  {
-    name: "Plumber San Francisco CA",
-    url: "https://plumbersanfranciscoca.vercel.app/"
-  },
-  {
-    name: "Plumber Charlotte NC",
-    url: "https://plumbercharlottenc.vercel.app/"
-  },
-  {
-    name: "Plumber Tulsa OK",
-    url: "https://plumbertulsaok.vercel.app/"
-  },
-  {
-    name: "Plumber West Seneca NY",
-    url: "https://plumberwestsenecany.vercel.app/"
-  }
+  { name: "Dallas Plumber", url: "https://dallasplumber.vercel.app" },
+  { name: "San Antonio Plumbing", url: "https://sanantonioplumbing.vercel.app" },
+  { name: "Plumber San Francisco CA", url: "https://plumbersanfranciscoca.vercel.app/" },
+  { name: "Plumber Charlotte NC", url: "https://plumbercharlottenc.vercel.app/" },
+  { name: "Plumber Tulsa OK", url: "https://plumbertulsaok.vercel.app/" },
+  { name: "Plumber West Seneca NY", url: "https://plumberwestsenecany.vercel.app/" }
 ];
 
 const RandomLinks = () => {
