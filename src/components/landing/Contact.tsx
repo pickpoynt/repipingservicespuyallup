@@ -10,13 +10,13 @@ const Contact = () => {
             <div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 text-indigo-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
                 <Locate className="w-4 h-4" />
-                FORT COLLINS SEWER REPAIR PROS
+                SALEM SEWER REPAIR PROS
               </div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-                Schedule <span className="text-indigo-600">Fort Collins Diagnostic</span>
+                Schedule <span className="text-indigo-600">Salem Diagnostic</span>
               </h2>
               <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-                Protect your Colorado property's infrastructure. Our Fort Collins-based team provides technical, master-grade solutions for sewer line repair and trenchless pipe lining throughout Larimer County.
+                Protect your Oregon property's infrastructure. Our Salem-based team provides technical, master-grade solutions for sewer line repair and trenchless pipe lining throughout Marion County.
               </p>
 
               <div className="space-y-8">
@@ -37,8 +37,8 @@ const Contact = () => {
                     <ShieldCheck className="w-7 h-7" />
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">COLORADO LICENSED</p>
-                    <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Larimer County Certified</p>
+                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">OREGON LICENSED</p>
+                    <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Marion County Certified</p>
                   </div>
                 </div>
 
@@ -48,7 +48,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">Service Area</p>
-                    <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Fort Collins & Northern Colorado</p>
+                    <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Salem & Mid-Willamette</p>
                   </div>
                 </div>
               </div>
@@ -97,7 +97,7 @@ const Contact = () => {
                   Get Technical Quote
                 </Button>
                 <p className="text-center text-slate-500 text-sm italic font-medium">
-                  *24/7 Priority diagnostics for Fort Collins property emergencies
+                  *24/7 Priority diagnostics for Salem property emergencies
                 </p>
               </form>
             </div>

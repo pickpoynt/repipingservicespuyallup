@@ -22,17 +22,17 @@ const Hero = ({
 
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-      {/* Background Image with Unique Overlay */}
-      <div className="absolute inset-0 z-0">
-        <img src={image} alt="" className="w-full h-full object-cover brightness-[0.5]" />
-        <div className="absolute inset-0 opacity-15 mix-blend-overlay overflow-hidden">
+      {/* Background Image with Technical Overlay */}
+      <div className="absolute inset-0 z-0 bg-slate-900">
+        <img src={image} alt="" className="w-full h-full object-cover brightness-[0.4] contrast-[1.1]" />
+        <div className="absolute inset-0 opacity-[0.08] pointer-events-none">
           <img
             src={overlayImage}
             alt=""
-            className="w-full h-full object-cover scale-150 animate-pulse transition-all duration-[20000ms]"
+            className="w-full h-full object-cover mix-blend-screen grayscale"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-950/60 via-blue-950/50 to-slate-900/70" />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">

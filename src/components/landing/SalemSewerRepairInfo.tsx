@@ -1,8 +1,8 @@
 import { ShieldCheck, Droplets, Activity, ClipboardCheck, MapPin, Construction, Locate, Search, Clock, Zap, Pipette } from "lucide-react";
 
-const FortCollinsSewerRepairInfo = () => {
+const SalemSewerRepairInfo = () => {
     return (
-        <section id="fort-collins-sewer-info" className="py-24 bg-white relative overflow-hidden">
+        <section id="salem-sewer-info" className="py-24 bg-white relative overflow-hidden">
             <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1541604193435-2258789965d8?auto=format&fit=crop&q=80')] opacity-[0.03] bg-cover bg-center" />
 
             <div className="container mx-auto px-4 relative z-10">
@@ -11,13 +11,13 @@ const FortCollinsSewerRepairInfo = () => {
                     <div className="text-center mb-16">
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-600 mb-6 uppercase tracking-widest text-xs font-bold">
                             <Locate className="w-4 h-4" />
-                            <span>Larimer County Sewer Specialists</span>
+                            <span>Marion & Polk County Sewer Specialists</span>
                         </div>
                         <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-                            Precision <span className="text-indigo-600">Sewer Line Repair</span> in Fort Collins
+                            Reliable <span className="text-indigo-600">Sewer Line Repair</span> in Salem
                         </h2>
                         <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed italic font-medium">
-                            Engineering permanent sewer solutions for Fort Collins property owners. From advanced trenchless pipe lining to technical main line excavations, we ensure Larimer County's wastewater infrastructure remains structurally sound and efficient.
+                            Protecting the infrastructure of Oregon's capital. Our Salem-based specialists provide master-grade sewer line repair and trenchless pipe lining for residential and commercial systems throughout the Mid-Willamette Valley.
                         </p>
                     </div>
 
@@ -28,7 +28,7 @@ const FortCollinsSewerRepairInfo = () => {
                             <div>
                                 <h3 className="text-2xl font-bold text-slate-900 mb-6 uppercase tracking-tight flex items-center gap-3">
                                     <Construction className="w-7 h-7 text-indigo-600" />
-                                    Northern Colorado Infrastructure
+                                    Willamette Valley Infrastructure
                                 </h3>
                                 <div className="space-y-4">
                                     <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100 hover:shadow-lg transition-all">
@@ -36,9 +36,9 @@ const FortCollinsSewerRepairInfo = () => {
                                             <Pipette className="w-5 h-5 text-indigo-600" />
                                         </div>
                                         <div>
-                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">CIPP Trenchless Lining</h4>
+                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Trenchless Pipe Bursting</h4>
                                             <p className="text-slate-600 text-sm leading-relaxed">
-                                                Restore your sewer main without damaging your Northern Colorado landscaping. We utilize structural pipe lining that creates a seamless, root-proof barrier inside your existing lines.
+                                                We utilize advanced hydraulic equipment to replace old, damaged sewer lines without tearing up your lawn. A seamless new HDPE pipe is pulled directly through the existing path.
                                             </p>
                                         </div>
                                     </div>
@@ -48,9 +48,9 @@ const FortCollinsSewerRepairInfo = () => {
                                             <Droplets className="w-5 h-5 text-indigo-600" />
                                         </div>
                                         <div>
-                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Technical Hydro-Scouring</h4>
+                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Root Removal & Jetting</h4>
                                             <p className="text-slate-600 text-sm leading-relaxed">
-                                                Our high-pressure hydro jetting system eliminates heavy root intrusions and mineral scale buildup common in Larimer County's older sewer systems.
+                                                Salem's lush vegetation often leads to aggressive root intrusion. Our high-velocity hydro jetting clears obstructions and restores full capacity to your main lines.
                                             </p>
                                         </div>
                                     </div>
@@ -60,9 +60,9 @@ const FortCollinsSewerRepairInfo = () => {
                                             <Search className="w-5 h-5 text-indigo-600" />
                                         </div>
                                         <div>
-                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">HD Internal Diagnostics</h4>
+                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Fiber-Optic Sewer Scans</h4>
                                             <p className="text-slate-600 text-sm leading-relaxed">
-                                                We provide precise internal sewer camera inspections to identify fissures, bellies, and joint failures before they cause extensive foundation or yard damage.
+                                                Precision internal diagnostics. We identify exact locations of blockages, cracks, or offsets, providing you with high-definition video evidence before we begin any restoration.
                                             </p>
                                         </div>
                                     </div>
@@ -75,21 +75,21 @@ const FortCollinsSewerRepairInfo = () => {
                             <div>
                                 <h3 className="text-2xl font-bold text-slate-900 mb-6 uppercase tracking-tight flex items-center gap-3">
                                     <MapPin className="w-7 h-7 text-indigo-600" />
-                                    Fort Collins & Larimer County Service Area
+                                    Salem & Mid-Willamette Service Area
                                 </h3>
                                 <p className="text-slate-600 mb-6 leading-relaxed">
-                                    Providing rapid response and professional sewer restoration across Northern Colorado:
+                                    Fast, reliable sewer engineering across Marion and Polk Counties:
                                 </p>
                                 <div className="grid grid-cols-2 gap-3">
                                     {[
-                                        "Old Town",
-                                        "Loveland",
-                                        "Windsor",
-                                        "Timnath",
-                                        "Laporte",
-                                        "Wellington",
-                                        "Red Feather",
-                                        "Bellvue"
+                                        "West Salem",
+                                        "Keizer",
+                                        "Silverton",
+                                        "Monmouth",
+                                        "Independence",
+                                        "Dallas",
+                                        "Stayton",
+                                        "Woodburn"
                                     ].map((area, index) => (
                                         <div key={index} className="flex items-center gap-2 p-3 bg-white rounded-lg border border-slate-100 shadow-sm">
                                             <div className="w-2 h-2 rounded-full bg-indigo-500" />
@@ -107,15 +107,15 @@ const FortCollinsSewerRepairInfo = () => {
                         <div className="grid md:grid-cols-2 gap-8 items-center relative z-10">
                             <div>
                                 <h3 className="text-3xl font-bold mb-4 uppercase tracking-tight flex items-center gap-3">
-                                    Sewer Main Collapse?
+                                    Salem Sewer Emergency?
                                 </h3>
                                 <p className="text-slate-400 leading-relaxed mb-6 italic">
-                                    If you're experiencing multiple line backups or discovering sinkholes in your yard, contact our Fort Collins emergency sewer engineering team immediately.
+                                    If your property is experiencing repeated backups or structural sinkholes, contact our Salem emergency sewer restoration team immediately for a technical assessment.
                                 </p>
                                 <div className="flex flex-wrap gap-4">
                                     <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">Master Plumbers</div>
-                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">Fort Collins Local</div>
-                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">EPA Certified</div>
+                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">Salem Local</div>
+                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">DEQ Certified</div>
                                 </div>
                             </div>
                             <div className="bg-indigo-600 rounded-2xl p-8 text-center transform hover:scale-105 transition-transform">
@@ -135,4 +135,4 @@ const FortCollinsSewerRepairInfo = () => {
     );
 };
 
-export default FortCollinsSewerRepairInfo;
+export default SalemSewerRepairInfo;

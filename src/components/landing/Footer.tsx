@@ -11,12 +11,12 @@ const Footer = () => {
                 <Locate className="w-7 h-7 text-blue-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Fort Collins Sewer</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Salem Sewer</span>
                 <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Repair Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Fort Collins' specialized sewer engineering experts. We provide master-grade sewer line repair and trenchless pipe lining services across Larimer County.
+              Salem's specialized sewer engineering experts. We provide master-grade sewer line repair and trenchless pipe lining services across Marion County.
             </p>
           </div>
 
@@ -54,8 +54,8 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-blue-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  300 LaPorte Ave<br />
-                  Fort Collins, CO 80521
+                  555 Liberty St SE<br />
+                  Salem, OR 97301
                 </address>
               </div>
               <div className="flex items-center gap-4">
@@ -70,7 +70,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic">
-            © {new Date().getFullYear()} Fort Collins Sewer Repair Pros. All rights reserved. Larimer County Sewer Authorities.
+            © {new Date().getFullYear()} Salem Sewer Repair Pros. All rights reserved. Marion County Sewer Authorities.
           </p>
         </div>
       </div>
@@ -81,22 +81,22 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Fort Collins Sewer Repair Pros",
+          "name": "Salem Sewer Repair Pros",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "300 LaPorte Ave",
-            "addressLocality": "Fort Collins",
-            "addressRegion": "CO",
-            "postalCode": "80521",
+            "streetAddress": "555 Liberty St SE",
+            "addressLocality": "Salem",
+            "addressRegion": "OR",
+            "postalCode": "97301",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "40.5853",
-            "longitude": "-105.0844"
+            "latitude": "44.9429",
+            "longitude": "-123.0351"
           },
           "telephone": "+18777921410",
-          "url": "https://sewer-line-repair-fort-collins.com/"
+          "url": "https://sewer-line-repair-salem-oregon.com/"
         })}
       </script>
     </footer>

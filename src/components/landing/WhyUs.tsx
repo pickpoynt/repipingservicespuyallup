@@ -11,10 +11,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mb-16 mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 uppercase tracking-tight">
-            Why Fort Collins Trusts Our <span className="text-indigo-400">Sewer Experts</span>
+            Why Salem Trusts Our <span className="text-indigo-400">Sewer Experts</span>
           </h2>
           <p className="text-xl text-slate-400 leading-relaxed font-medium italic">
-            Protecting Larimer County homes with master-grade engineering. We specialize in advanced trenchless sewer line repair and rapid local support for Fort Collins property owners.
+            Protecting Marion County homes with master-grade engineering. We specialize in advanced trenchless sewer line repair and rapid local support for Salem property owners.
           </p>
         </div>
 
@@ -23,17 +23,17 @@ const WhyUs = () => {
             {
               icon: ShieldCheck,
               title: "Clinical Precision",
-              description: "We utilize advanced fiber-optic diagnostics to identify sewer breaches with surgical accuracy, minimizing destructive digging on your Colorado property."
+              description: "We utilize advanced fiber-optic diagnostics to identify sewer breaches with surgical accuracy, minimizing destructive digging on your Oregon property."
             },
             {
               icon: MapPin,
-              title: "Fort Collins Local",
-              description: "Our teams are based in Larimer County, meaning rapid response times when sewer backups and main line failures occur in the Fort Collins area."
+              title: "Salem Local",
+              description: "Our teams are based in Marion County, meaning rapid response times when sewer backups and main line failures occur in the Salem area."
             },
             {
               icon: Calendar,
               title: "Trenchless Solutions",
-              description: "Modern pipe lining technologies that eliminate the need for heavy excavation, preserving your Fort Collins landscaping and hardscaping."
+              description: "Modern pipe lining technologies that eliminate the need for heavy excavation, preserving your Salem landscaping and hardscaping."
             },
             {
               icon: DollarSign,
@@ -60,7 +60,7 @@ const WhyUs = () => {
           <div className="max-w-xl">
             <h3 className="text-3xl font-bold text-white mb-4 uppercase tracking-tight">Sewer Crisis?</h3>
             <p className="text-blue-50 text-lg font-medium opacity-90">
-              Don't wait for property damage. Our Fort Collins specialist team is ready to restore your systems 24/7.
+              Don't wait for property damage. Our Salem specialist team is ready to restore your systems 24/7.
             </p>
           </div>
           <a
